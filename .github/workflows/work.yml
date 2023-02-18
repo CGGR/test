@@ -32,7 +32,7 @@ jobs:
     - name: Connect to VPN
       uses: "kota65535/github-openvpn-connect-action@v2"
       with:
-        config_file: ./github/workflows/client.ovpn
+        config_file: ./.github/workflows/client.ovpn
         username: vpn
         password: vpn
     - name: Main
